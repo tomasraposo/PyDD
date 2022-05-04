@@ -5,6 +5,7 @@ from tornado.iostream import StreamClosedError
 from tornado.websocket import WebSocketHandler
 import json
 
+# adapted from https://stackoverflow.com/questions/41431882/live-stream-stdout-and-stdin-with-websocket
 class WSHandler(WebSocketHandler):
     def check_origin(self, origin):
         return True
