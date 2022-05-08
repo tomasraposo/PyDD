@@ -78,25 +78,40 @@ OPTIONS
 #### Debug commands
 
 _class_ PyDDRepl. **do_next**(args)
+
 _class_ PyDDRepl. **do_prev**(args)
+
 _class_ PyDDRepl. **do_print**(args)
+
 _class_ PyDDRepl. **do_break**(args)
+
 _class_ PyDDRepl. **do_watch**(args)
+
 _class_ PyDDRepl. **do_remove**(args)
+
 _class_ PyDDRepl. **do_continue**(args)
+
 _class_ PyDDRepl. **do_exit**(args)
+
 _class_ PyDDRepl. **do_list**(args)
+
 _class_ PyDDRepl. **do_repair**(args)
 
 #### Debugging strategies
 
 _class_ DebuggingStrategy. **single_stepping**
+
 _class_ DebuggingStrategy. **top_down**
+
 _class_ DebuggingStrategy. **heaviest_first**
+
 _class_ DebuggingStrategy. **divide_and_query**
 
 #### Program repair strategies
 
 _class_ Grammar. **bus**
+
 _class_ Grammar. **bfs**
+
 _class_ Grammar. **dfs**
+
